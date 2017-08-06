@@ -1,5 +1,10 @@
 <?php 
+//
+//returns the time based on the angle
+// given as an argument.
+
 function what_time_is_it($angle){
+  if ($angle >360) return "Angle must be between 0 and 360!\n ";
   $time='';
   $an = $angle/360;
   $hour = floor($an*12);
