@@ -1,5 +1,6 @@
 function fold_to($distance) {
     //adding feature
+    //another feature
     if(!$distance){echo "NULL!";}
     
     $paper=0.0001;
